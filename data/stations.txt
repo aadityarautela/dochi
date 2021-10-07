@@ -1,0 +1,231 @@
+0 None
+1 Samaypur Badli
+2 Rohini Sector 18,19
+3 Haiderpur Badli Mor
+4 Jahangirpuri
+5 Adarsh Nagar
+6 Azadpur
+7 Model Town
+8 GTB Nagar
+9 Viswavidyalaya
+10 Vidhan Sabha
+11 Civil Lines
+12 Kashmere Gate
+13 Chandhni Chowk
+14 Chawri Bazar
+15 New Delhi
+16 Rajiv Chowk
+17 Patel Chowk
+18 Central Secretariat
+19 Udyog Bhawan
+20 Lok Kalyan Marg
+21 Jorbagh
+22 INA
+23 AIIMS
+24 Green Park
+25 Hauz Khas
+26 Malvia Nagar
+27 Saket
+28 Qutab Minar
+29 Chhattarpur
+30 Sultanpur
+31 Ghitorni
+32 Arjan Garh
+33 Guru Dronacharya
+34 Sikandarpur
+35 MG Road
+36 IFFCO Chowk
+37 Huda City Centre
+38 Noida Electronic City
+39 Noida Sector 62
+40 Noida Sector 59
+41 Noida Sector 61
+42 Noida Sector 52
+43 Noida Sector 34
+44 Noida City Centre
+45 Golf Course
+46 Botanical Garden
+47 Noida Sector 18
+48 Noida Sector 16
+49 Noida Sector 15
+50 New Ashok Nagar
+51 Mayur Vihar Extension
+52 Mayur Vihar-I
+53 Akshardham
+54 Yamuna Bank
+55 Indraprastha
+56 Supreme Court
+57 Mandi House
+58 Barakhamba Road
+59 RK Ashram Marg
+60 Jhandewalan
+61 Karol Bagh
+62 Rajendra Place
+63 Patel Nagar
+64 Shadipur
+65 Kirti Nagar
+66 Moti Nagar
+67 Ramesh Nagar
+68 Rajouri Garden
+69 Tagore Garden
+70 Subhash Nagar
+71 Tilak Nagar
+72 Janakpuri East
+73 Janakpuri West
+74 Uttam Nagar East
+75 Uttam Nagar West
+76 Nawada
+77 Dwarka Mor
+78 Dwarka
+79 Dwarka Sector 14
+80 Dwarka Sector 13
+81 Dwarka Sector 12
+82 Dwarka Sector 11
+83 Dwarka Sector 10
+84 Dwarka Sector 9
+85 Dwarka Sector 8
+86 Dwarka Sector 21
+87 Laxmi Nagar
+88 Nirman Vihar
+89 Preet Vihar
+90 Karkarduma
+91 Anand Vihar
+92 Kaushambi
+93 Vaishali
+94 Majlis Park
+95 Shalimar Bagh
+96 Netaji Subhash Place
+97 Shakurpur
+98 Punjabi Bagh West
+99 ESI Hospital
+100 Maya Puri
+101 Nariana Vihar
+102 Delhi Cantt
+103 Durgabai Deshmukh South Campus
+104 Sir Vishweshwaraiah Moti Bagh
+105 Bhikaji Cama Place
+106 Sarojini Nagar
+107 South Extension
+108 Lajpat Nagar
+109 Vinobapuri
+110 Ashram
+111 Sarai Kale Khan Nizamuddin
+112 Mayur Vihar Pocket 1
+113 Trilok Puri Sanjay Lake
+114 Vinod Nagar East
+115 Mandawali
+116 IP Extension
+117 Karkarduma Court
+118 Krishna Nagar
+119 East Azad Nagar
+120 Welcome
+121 Jaffrabad
+122 Maujpur
+123 Gokul Puri
+124 Johri Enclave
+125 Shiv Vihar
+126 Shaheed Sthal 
+127 Hindon River
+128 Arthala
+129 Mohan Nagar
+130 Shyam park
+131 Rajendra Nagar
+132 Raj Bagh
+133 Shaheed Nagar
+134 Dilshad Garden
+135 Jhilmil
+136 Mansarovar Park
+137 Shahdara
+138 Seelampur
+139 Shastri Park
+140 Tis Hazari
+141 Pul Bangash
+142 Pratap Nagar
+143 Shastri Nagar
+144 Inderlok
+145 Kanhiya Nagar
+146 Keshav Puram
+147 Kohat Enclave
+148 Pitam Pura
+149 Rohini East
+150 Rohini West
+151 Rithala
+152 Dabri Mor
+153 Dashrath Puri
+154 Palam
+155 Sadar Bazaar Cantonment
+156 Terminal 1 IGI Airport
+157 Shankar Vihar
+158 Vasant Vihar
+159 Munirka
+160 RK Puram
+161 IIT 
+162 Panchsheel Park
+163 Chirag Delhi
+164 Greater Kailash
+165 Nehru Enclave
+166 Kalkaji Mandir
+167 Okhla NSIC
+168 Sukhdev Vihar
+169 Jamia Millia Islamia
+170 Okhla Vihar
+171 Jasola Vihar Shaheen Bagh
+172 Kalindi Kunj
+173 Okhla Bird Sanctuary
+174 Lal Qila
+175 Jama Masjid
+176 Delhi Gate
+177 ITO
+178 Janpath
+179 Khan Market
+180 JLN Stadium
+181 Jangpura
+182 Moolchand
+183 Kailash Colony
+184 Nehru Place
+185 Govind Puri
+186 Harkesh Nagar
+187 Jasola Apollo
+188 Sarita Vihar
+189 Mohan Estate
+190 Tughlakabad
+191 Badarpur
+192 Sarai
+193 NHPC Chowk
+194 Mewla Maharajpur
+195 Sector 28
+196 Badkhal Mor
+197 Old Faridabad 
+198 Neelam Chowk Ajronda
+199 Bata Chowk
+200 Escorts Mujesar
+201 Sant Surdas 
+202 Raja Nahar Singh
+203 Ashok Park Main
+204 Punjabi Bagh
+205 Shivaji Park
+206 Madipur
+207 Paschim Vihar East
+208 Paschim Vihar West
+209 Peera Garhi
+210 Udyog Nagar
+211 Maharaja Surajmal Stadium
+212 Nangloi
+213 Nangloi Railway Station
+214 Rajdhani Park
+215 Mundka
+216 Mundka Industrial Area
+217 Ghevra
+218 Tikri Kalan
+219 Tikri Border
+220 Pandit Shree Ram Sharma
+221 Bahadurgarh City
+222 Brigadier Hoshiyar Singh
+223 Satguru Ram Singh Marg
+224 Shivaji Stadium
+225 Dhaula Kuan
+226 Delhi Aerocity
+227 Airport T3
+228 Nangli
+229 Najafgarh
+230 Dhansa Bus Stand
