@@ -1,4 +1,4 @@
-#include "../includes/init.h"
+#include "../includes/utils.h"
 
 void initStations(vector<Station> &stations) {
   stations.resize(N_STATIONS);
@@ -711,4 +711,17 @@ void initRouteMap(Graph &routeMap) {
   routeMap.addEdge(35, 36, 3);
   routeMap.addEdge(36, 37, 2);
   routeMap.addEdge(225, 103, 0);
+}
+
+void listStations(vector<Station> &stations) {
+  for (auto station : stations) {
+    if (station.id != 0)
+      cout << station.id << ") " << station.name << endl;
+  }
+}
+void printRoute(vector<Station> &stations, vector<int> &route) {
+  cout << "Route\n";
+  for (auto id : route) {
+    cout << stations[id].name << endl;
+  }
 }

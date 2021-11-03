@@ -1,8 +1,9 @@
 #pragma once
-#include "station.h"
 #include "fibheap.h"
+#include "station.h"
+#include "constants.h"
 #include <vector>
-
+#include <algorithm>
 using namespace std;
 
 class Graph {
@@ -12,4 +13,6 @@ private:
 public:
   Graph(int V);
   void addEdge(int u, int v, int w);
+  vector<int> dijkstra(int src, int dest);
+  int weight(int u, int v);
 };
