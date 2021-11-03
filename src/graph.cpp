@@ -25,7 +25,7 @@ vector<int> Graph::dijkstra(int src, int dest) {
     int id, value;
     pair<int, int> tmp = pq.removeMinimum();
     id = tmp.first, value = tmp.second;
-    // cout << id << "," << value << endl;  
+    // cout << id << "," << value << endl;
     // cout << "Works here\n";
     for (auto v : adjList[id]) {
       // cout << "Works here again\n";
@@ -46,4 +46,25 @@ vector<int> Graph::dijkstra(int src, int dest) {
   }
   std::reverse(route.begin(), route.end());
   return route;
+}
+
+int Graph::countDFS() {
+  vector<bool> visited(N_STATIONS, false);
+  int count = 0;
+  for (int i = 1; i < N_STATIONS; i++) {
+    if (!visited[i]) {
+      dfsutil(i, visited);
+      count++;
+    }
+  }
+  return count;
+}
+
+void Graph::dfsutil(int id, vector<bool> &visited) {
+  visited[id] = true;
+  for (auto v : adjList[id]) {
+    if (!visited[v.first]) {
+      dfsutil(v.first, visited);
+    }
+  }
 }

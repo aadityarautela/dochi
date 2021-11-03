@@ -159,7 +159,7 @@ Node *FibonacciHeap::_removeMinimum(Node *n) {
     if (n->value < min->value)
       min = n;
     n = n->next;
-  } while (n != n);
+  } while (min != n);
   return min;
 }
 
