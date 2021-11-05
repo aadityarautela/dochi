@@ -1,5 +1,11 @@
 #include "../includes/utils.h"
 
+/*
+* TODO
+* 1) TIME (aka distance) Print
+* 2) MARK INTERCHANGE with *
+*/
+
 int main() {
   vector<Station> stations;
   initStations(stations);

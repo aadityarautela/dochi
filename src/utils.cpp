@@ -632,7 +632,7 @@ void initRouteMap(Graph &routeMap) {
   routeMap.addEdge(140, 141, 3);
   routeMap.addEdge(141, 142, 2);
   routeMap.addEdge(142, 143, 3);
-  routeMap.addEdge(14, 144, 3);
+  routeMap.addEdge(143, 144, 3);
   routeMap.addEdge(144, 145, 3);
   routeMap.addEdge(145, 146, 2);
   routeMap.addEdge(146, 96, 3);
