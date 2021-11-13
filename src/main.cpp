@@ -1,18 +1,15 @@
 #include "../includes/utils.h"
 
-/*
-* TODO
-* 1) TIME (aka distance) Print
-* 2) MARK INTERCHANGE with *
-*/
-
 int main() {
+  // Initialization
   vector<Station> stations;
   initStations(stations);
   Graph routeMap(N_STATIONS);
   initRouteMap(routeMap);
 
   bool valid_id = false;
+
+  // Program Loop
   while (true) {
     listStations(stations);
     int src, dest;

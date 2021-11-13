@@ -8,27 +8,26 @@ void Graph::addEdge(int u, int v, int w) {
 }
 
 vector<int> Graph::dijkstra(int src, int dest) {
+  // Initializations
   vector<int> distance(N_STATIONS, INF);
   vector<int> previous(N_STATIONS, UNDEFINED);
 
   distance[src] = 0;
 
   FibonacciHeap pq;
-  vector<Node *> stationsPtr(N_STATIONS);
+  vector<Node *> stationsPtr(N_STATIONS); // To aid in decreaseKey
   Node *p;
   for (int i = 1; i < N_STATIONS; i++) {
     p = pq.insert(i, distance[i]);
     stationsPtr[i] = p;
   }
 
+  // Dijkstra Main
   while (!pq.isEmpty()) {
     int id, value;
     pair<int, int> tmp = pq.removeMinimum();
     id = tmp.first, value = tmp.second;
-    // cout << id << "," << value << endl;
-    // cout << "Works here\n";
     for (auto v : adjList[id]) {
-      // cout << "Works here again\n";
       auto alt = value + v.second;
       if (alt < distance[v.first]) {
         distance[v.first] = alt;
@@ -38,7 +37,7 @@ vector<int> Graph::dijkstra(int src, int dest) {
     }
   }
 
-  // destination_reached:
+  // Route Construction
   vector<int> route;
   while (dest != UNDEFINED) {
     route.push_back(dest);

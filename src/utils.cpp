@@ -1,5 +1,7 @@
 #include "../includes/utils.h"
 
+// Route and Station Initializations here, along with Utility Functions
+
 void initStations(vector<Station> &stations) {
   stations.resize(N_STATIONS);
   stations[0].id = 0;
