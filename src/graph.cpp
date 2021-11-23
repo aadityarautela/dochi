@@ -36,6 +36,7 @@ vector<int> Graph::dijkstra(int src, int dest) {
       }
     }
   }
+  cout<<"\nTime Taken: "<<distance[dest]<<" minutes"<<endl;
 
   // Route Construction
   vector<int> route;

@@ -722,8 +722,9 @@ void listStations(vector<Station> &stations) {
   }
 }
 void printRoute(vector<Station> &stations, vector<int> &route) {
-  cout << "Route\n";
+  cout << "Route\n\n";
   for (auto id : route) {
     cout << stations[id].name << endl;
   }
+  cout << endl;
 }
